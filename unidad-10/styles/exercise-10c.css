@@ -1,0 +1,51 @@
+html{
+    background-color: rgb(24,24,24);
+}
+.video-preview{
+    background-color: rgb(24, 24, 24);
+    height: 105px;
+    margin-bottom: 10px;
+    display: block;
+}
+.video-picture{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.video-info{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 25px;
+}
+p{
+    font-family: 'Roboto', Arial;
+    color: rgb(206, 203, 203);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 20px;
+}
+.video1{
+    width: 110%;
+    border-radius: 10px;
+    transition: opacity 0.2s;
+    cursor: pointer;
+}
+.video1:hover{
+    opacity: 0.7;
+}
+.title{
+    font-weight: 500;
+    margin-bottom: 10px;
+    color:white;
+    cursor: pointer;
+    width: 630px;
+}
+.user,.stats{
+    font-size: 14px;
+    cursor: pointer;
+}
+.user{
+    margin-bottom: 5px;
+    cursor: pointer;
+}

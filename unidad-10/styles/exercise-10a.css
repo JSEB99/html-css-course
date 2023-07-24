@@ -1,0 +1,48 @@
+.cat-picture{
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 35px;
+}
+div{
+    display: inline-block;
+}
+p{
+    font-size: 17px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Arial;
+}
+.profile-picture{
+    width: 55px;
+    height: 55px;
+    vertical-align: middle;
+}
+.profile-info{
+    width: 200px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.profile-info-name,.profile-info-user,.profile-info-desc{
+    display: block;
+}
+.profile-info-name{
+    font-weight: bold;
+}
+.info,.desc{
+    color: gray;
+}
+.desc{
+    font-size: 15px;
+}
+button{
+    background-color: rgb(50, 136, 248);
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 8px 13px;
+    border-radius: 5px;
+    vertical-align: middle;
+    cursor:pointer;
+}
