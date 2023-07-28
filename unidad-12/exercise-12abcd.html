@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .container1{
+                display: flex;
+                flex-direction: row;
+            }
+            .container1a{
+                width: 200px;
+                background-color: lightblue;
+            }
+            .container1b{
+                width: 75px;
+                background-color: lightpink;
+            }
+
+            .container2{
+                display: flex;
+                flex-direction: row;
+            }
+            .container2a{
+                width: 50px;
+                background-color: lightblue;
+            }
+            .container2b{
+                flex: 1;
+                background-color: lightpink;
+            }
+            .container2c{
+                width: 75px;
+                background-color: lightblue;
+            }
+            .container3{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .container3a{
+                background-color: lightpink;
+            }
+            .container4{
+                display: flex;
+                flex-direction: row;
+                height: 50px;
+                align-items: center;
+                border-width: 1px;
+                border-style: solid;
+                border-color: gray;
+                justify-content: space-between;
+            }
+            .container4a,.container4b{
+                background-color: lightpink;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container1">
+            <div class="container1a">200px</div>
+            <div class="container1b">75px</div>
+        </div>
+        <div class="container2">
+            <div class="container2a">item1</div>
+            <div class="container2b">item2</div>
+            <div class="container2c">item3</div>
+        </div>
+        <div class="container3">
+            <div class="container3a">item1</div>
+            <div class="container3a">item2</div>
+            <div class="container3a">item3</div>
+            <div class="container3a">item4</div>
+        </div>
+        <div class="container4">
+            <div class="container4a">item1</div>
+            <div class="container4b">item2</div>
+        </div>
+    </body>
+</html>

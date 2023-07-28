@@ -1,0 +1,39 @@
+div{
+    font-family: Arial;
+    color: white;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(172, 57, 201);
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container1a{
+    width: 100px;
+    font-weight: bold;
+}
+.search-bar{
+    border: none;
+    width: 500px;
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 20px;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+button{
+    background-color: rgb(172, 57, 201);
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 3px;
+    color: white;
+    font-size: 14px;
+    padding: 7px 13px;
+}
+
