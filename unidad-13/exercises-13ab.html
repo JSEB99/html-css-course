@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .container1{
+                display: flex;
+                flex-direction: row;
+                height: 50px;
+            }
+            .container1a{
+                background-color: lightpink;
+                width: 100px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+            .item1{
+                background-color: black;
+                color: white;
+            }
+            .container1b{
+                background-color: lightblue;
+                width: 200px;
+            }
+            .container2{
+                display: flex;
+                flex-direction: row;
+                height: 50px;
+                margin-top: 10px;
+            }
+            .container2a{
+                background-color: lightpink;
+                width: 100px;
+            }
+            .container2b{
+                width: 200px;
+                background-color: lightblue;
+            }
+            .container2ba{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .container2baa{
+                background-color: black;
+                color: white;
+            }
+            .container2bab{
+                background-color: black;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container1">
+            <div class="container1a">
+                <div class="item1">item1</div>
+            </div>
+            <div class="container1b"></div>
+        </div>
+        <div class="container2">
+            <div class="container2a"></div>
+            <div class="container2b">
+                <div>row1</div>
+                <div class="container2ba">
+                    <div class="container2baa">row2</div>
+                    <div class="container2bab">row2</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
