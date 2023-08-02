@@ -1,0 +1,78 @@
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.groups-sidebar{
+    background-color: rgb(45, 44, 56);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.profile-container{
+    padding: 12.5px;
+}
+.groups-profile{
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    transition: box-shadow 0.2s;
+    
+}
+.groups-profile:hover{
+    box-shadow: 1px 1px 10px 5px rgba(10, 223, 2, 0.2);
+    cursor: pointer;
+}
+.channel-sidebar{
+    background-color: rgb(74, 73, 83);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 80px;
+    width: 250px;
+}
+.channels-container{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.channels-container-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.title{
+    color: rgb(224, 224, 224);
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+.title:hover{
+    color: rgb(255, 255, 255)
+}
+.more{
+    color: rgb(216, 214, 214);
+    font-size: 25px;
+    cursor: pointer;
+}
+.more:hover{
+    color:rgb(224, 224, 224)
+}
+.channel-link{
+    color: rgb(175, 175, 175);
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+.channel-link:hover{
+    color: rgb(231, 231, 231);
+    cursor: pointer;
+}
+
